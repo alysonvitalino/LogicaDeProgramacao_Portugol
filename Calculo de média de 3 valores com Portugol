@@ -1,0 +1,24 @@
+Algoritmo "Atividade_8_Questao_1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Luiz Cesar Gawlik
+// Descrição   : calculadora de media aritmetica
+// Autor(a)    : Alsyon Hia Clausen Vitalino
+// Data atual  : 29/02/2024
+Var
+// Seção de Declarações das variáveis 
+valor1, valor2, valor3, total1, resultado1: real;
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+Escreval ("Quantos numeros voce vai utilizar para calcular a media?")
+Leia (total1)
+Escreval ("Qual o primeiro valor ?")
+Leia (valor1)
+Escreval ("Qual o segundo valor ?")
+Leia (valor2)
+Escreval ("Qual o terceiro valor ?")
+Leia (valor3)
+resultado1 := (valor1+valor2+valor3)/total1
+Escreval ("A media aritmetica eh: ", resultado1)
+
+Fimalgoritmo
